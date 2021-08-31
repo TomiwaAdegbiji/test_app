@@ -1,0 +1,45 @@
+PODS:
+  - audioplayer (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_sound (8.3.9):
+    - Flutter
+    - mobile-ffmpeg-audio (= 4.4.LTS)
+    - tau_core (= 8.3.9)
+  - mobile-ffmpeg-audio (4.4.LTS)
+  - path_provider (0.0.1):
+    - Flutter
+  - tau_core (8.3.9)
+
+DEPENDENCIES:
+  - audioplayer (from `.symlinks/plugins/audioplayer/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_sound (from `.symlinks/plugins/flutter_sound/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+
+SPEC REPOS:
+  trunk:
+    - mobile-ffmpeg-audio
+    - tau_core
+
+EXTERNAL SOURCES:
+  audioplayer:
+    :path: ".symlinks/plugins/audioplayer/ios"
+  Flutter:
+    :path: Flutter
+  flutter_sound:
+    :path: ".symlinks/plugins/flutter_sound/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+
+SPEC CHECKSUMS:
+  audioplayer: 0584f31a697e4b0bbad405ae7903d7a93585e784
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  flutter_sound: 91c069f33d811a4c98b9aa7cec9cd1dbfd1786d9
+  mobile-ffmpeg-audio: 1e0a053f8a6de57114e50ff48b3a85ff1c60f902
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  tau_core: f7bbd1c6a632f52c2fa7c14feea385ab966b1e45
+
+PODFILE CHECKSUM: fe0e1ee7f3d1f7d00b11b474b62dd62134535aea
+
+COCOAPODS: 1.10.1
